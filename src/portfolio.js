@@ -8,7 +8,8 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Maximilian Hagelstam',
   role: 'Fullstack Developer',
-  description: 'I need to write this about part',
+  description:
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae at molestias nostrum itaque exercitationem in impedit officiis, voluptatum tenetur natus, cupiditate recusandae suscipit veniam laboriosam odio eaque reprehenderit hic consequatur!',
   resume: 'https://example.com',
   social: {
     linkedin: 'https://www.linkedin.com/in/maximilian-hagelstam-704840186/',
