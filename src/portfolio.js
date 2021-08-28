@@ -23,13 +23,13 @@ const projects = [
   {
     name: 'Translatir',
     description: 'Translation app',
-    stack: ['React', 'Material UI', 'Azure'],
+    stack: ['React', 'Material UI', 'Azure Translator'],
     sourceCode: 'https://github.com/MaximilianHagelstam/translatir',
     livePreview: 'https://translatir.netlify.app/',
   },
   {
     name: 'Ocr Api',
-    description: 'An OCR API',
+    description: 'API for parsing text in images',
     stack: ['C#', 'ASP.NET Core', 'Tesseract'],
     sourceCode: 'https://github.com/MaximilianHagelstam/OcrApi',
     livePreview: 'https://github.com',
