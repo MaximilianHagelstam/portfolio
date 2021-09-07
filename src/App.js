@@ -15,9 +15,9 @@ const App = () => {
   const favicon = document.getElementById('favicon');
 
   if (themeName === 'dark') {
-    favicon.href = 'https://www.google.com/favicon.ico';
+    favicon.href = `${process.env.PUBLIC_URL}/favicon_dark.ico`;
   } else if (themeName === 'light') {
-    favicon.href = 'https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico';
+    favicon.href = `${process.env.PUBLIC_URL}/favicon_light.ico`;
   }
 
   return (
