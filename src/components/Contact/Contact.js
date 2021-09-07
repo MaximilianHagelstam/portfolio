@@ -1,4 +1,5 @@
 import { contact } from '../../portfolio';
+
 import './Contact.css';
 
 const Contact = () => {

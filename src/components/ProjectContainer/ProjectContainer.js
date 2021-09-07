@@ -2,6 +2,7 @@ import uniqid from 'uniqid';
 import PropTypes from 'prop-types';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LaunchIcon from '@material-ui/icons/Launch';
+
 import './ProjectContainer.css';
 
 const ProjectContainer = ({ project }) => (

@@ -1,11 +1,9 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
   homepage: 'https://github.com/MaximilianHagelstam/portfolio',
   title: 'MH.',
 };
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
   name: 'Maximilian Hagelstam',
   role: 'Fullstack Developer',
   description:
@@ -18,8 +16,6 @@ const about = {
 };
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
     name: 'Translatir',
     description: 'Translation app',
@@ -28,24 +24,22 @@ const projects = [
     livePreview: 'https://translatir.netlify.app/',
   },
   {
-    name: 'Ocr Api',
-    description: 'API for parsing text in images',
-    stack: ['C#', 'ASP.NET Core', 'Tesseract'],
-    sourceCode: 'https://github.com/MaximilianHagelstam/OcrApi',
-    livePreview: 'https://github.com',
-  },
-  {
     name: 'Wordly',
     description: 'Word remembering app',
     stack: ['ASP.NET Core', 'SQL Server', 'React'],
     sourceCode: 'https://github.com/MaximilianHagelstam/Wordly',
     livePreview: 'https://github.com',
   },
+  {
+    name: 'Ocr Api',
+    description: 'API for parsing text in images',
+    stack: ['C#', 'ASP.NET Core', 'Tesseract'],
+    sourceCode: 'https://github.com/MaximilianHagelstam/OcrApi',
+    livePreview: 'https://github.com',
+  },
 ];
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
   'C#',
   'JavaScript',
   'Python',
@@ -63,7 +57,6 @@ const skills = [
 ];
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
   email: 'maximilian.hagelstam@mail.com',
 };
 
