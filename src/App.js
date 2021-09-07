@@ -12,6 +12,14 @@ import './App.css';
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext);
 
+  const favicon = document.getElementById('favicon');
+
+  if (themeName === 'dark') {
+    favicon.href = 'https://www.google.com/favicon.ico';
+  } else if (themeName === 'light') {
+    favicon.href = 'https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico';
+  }
+
   return (
     <div id='top' className={`${themeName} app`}>
       <Header />
