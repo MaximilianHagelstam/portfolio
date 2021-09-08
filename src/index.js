@@ -1,10 +1,11 @@
-import { render } from 'react-dom';
+import React from 'react';
+import ReactDOM from 'react-dom';
 import App from './App';
 import { ThemeProvider } from './contexts/theme';
 
 import './index.css';
 
-render(
+ReactDOM.render(
   <ThemeProvider>
     <App />
   </ThemeProvider>,
