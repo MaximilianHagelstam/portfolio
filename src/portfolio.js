@@ -3,11 +3,6 @@ const header = {
   title: 'MH.',
 };
 
-/*
-
-
-*/
-
 const about = {
   name: 'Maximilian Hagelstam',
   role: 'Fullstack Developer',
