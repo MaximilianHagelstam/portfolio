@@ -1,3 +1,4 @@
+import React from 'react';
 import uniqid from 'uniqid';
 import PropTypes from 'prop-types';
 import GitHubIcon from '@material-ui/icons/GitHub';
