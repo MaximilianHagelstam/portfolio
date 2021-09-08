@@ -18,24 +18,24 @@ const about = {
 const projects = [
   {
     name: 'Translatir',
-    description: 'Translation app',
+    description: 'Translation app, powered by Azure Translator.',
     stack: ['React', 'Material UI', 'Azure Translator'],
     sourceCode: 'https://github.com/MaximilianHagelstam/translatir',
     livePreview: 'https://translatir.netlify.app/',
   },
   {
     name: 'Wordly',
-    description: 'Word remembering app',
+    description: 'Word remembering app, for expanding your vocabulary.',
     stack: ['ASP.NET Core', 'SQL Server', 'React'],
     sourceCode: 'https://github.com/MaximilianHagelstam/Wordly',
-    livePreview: 'https://github.com',
+    livePreview: 'https://wordly.azurewebsites.net/',
   },
   {
     name: 'Ocr Api',
-    description: 'API for parsing text in images',
+    description: 'An API, that parses the text in images using Tesseract.',
     stack: ['C#', 'ASP.NET Core', 'Tesseract'],
     sourceCode: 'https://github.com/MaximilianHagelstam/OcrApi',
-    livePreview: 'https://github.com',
+    livePreview: 'https://ocrapi.azurewebsites.net/api/home/',
   },
 ];
 
