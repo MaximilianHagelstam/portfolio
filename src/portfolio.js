@@ -3,12 +3,16 @@ const header = {
   title: 'MH.',
 };
 
+/*
+
+
+*/
+
 const about = {
   name: 'Maximilian Hagelstam',
   role: 'Fullstack Developer',
   description:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae at molestias nostrum itaque exercitationem in impedit officiis, voluptatum tenetur natus, cupiditate recusandae suscipit veniam laboriosam odio eaque reprehenderit hic consequatur!',
-  resume: 'https://example.com',
+    "I'm a full-stack developer from Finland. I take pride in building fast, scalable applications using modern web technologies. Currently, I'm a high school student, but in my free time, you will find me learning more about my favourite technologies.",
   social: {
     linkedin: 'https://www.linkedin.com/in/maximilian-hagelstam-704840186/',
     github: 'https://github.com/MaximilianHagelstam',
