@@ -39,20 +39,14 @@ const projects = [
 ];
 
 const skills = [
-  'C#',
   'JavaScript',
-  'Python',
-  'HTML',
-  'CSS',
-  'SQL Server',
-  '.NET',
-  'ASP.NET Core',
-  'Entity Framework',
+  'TypeScript',
+  'PostgreSQL',
+  'MongoDB',
+  'Node.js',
   'React.js',
   'Git',
-  'Visual Studio',
-  'VS Code',
-  'Postman',
+  'Docker',
 ];
 
 const contact = {
