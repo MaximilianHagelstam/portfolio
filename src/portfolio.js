@@ -40,7 +40,7 @@ const projects = [
     name: 'Aura',
     description: 'Real time room temperature app',
     stack: ['Raspberry PI', 'Arduino', 'Socket.io'],
-    sourceCode: 'https://github.com/MaximilianHagelstam/todo-cli',
+    sourceCode: 'https://github.com/MaximilianHagelstam/aura',
   },
 ];
 
