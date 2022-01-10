@@ -1,10 +1,8 @@
-import React from 'react';
-
 import './Footer.css';
 
 const Footer = () => (
   <footer>
-    <a href='https://github.com/MaximilianHagelstam/' className='link'>
+    <a href='https://github.com/MaximilianHagelstam/portfolio' className='link'>
       made with ❤️ by maximilian
     </a>
   </footer>

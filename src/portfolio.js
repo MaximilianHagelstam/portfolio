@@ -16,11 +16,31 @@ const about = {
 
 const projects = [
   {
-    name: '...',
-    description: 'Coming soon',
-    // stack: ['React', 'Material UI', 'Azure Translator'],
-    // sourceCode: 'https://github.com/MaximilianHagelstam/translatir',
-    // livePreview: 'https://translatir.netlify.app/',
+    name: 'CryptoChimp',
+    description:
+      'Trade cryptocurrency on real market data, but with fake money',
+    stack: ['Node', 'React', 'MongoDB'],
+    sourceCode: 'https://github.com/MaximilianHagelstam/cryptochimp',
+    livePreview: 'https://cryptochimp.netlify.app',
+  },
+  {
+    name: 'Dapple',
+    description: 'Website that lets you search for rhymes',
+    stack: ['Spring Boot', 'React', 'PostgreSQL'],
+    sourceCode: 'https://github.com/MaximilianHagelstam/dapple',
+    livePreview: 'https://dappleapp.netlify.app',
+  },
+  {
+    name: 'Todo CLI',
+    description: 'A simple command-line tool for managing Google Tasks',
+    stack: ['Node', 'Google APIs'],
+    sourceCode: 'https://github.com/MaximilianHagelstam/todo-cli',
+  },
+  {
+    name: 'Aura',
+    description: 'Real time room temperature app',
+    stack: ['Raspberry PI', 'Arduino', 'Socket.io'],
+    sourceCode: 'https://github.com/MaximilianHagelstam/todo-cli',
   },
 ];
 

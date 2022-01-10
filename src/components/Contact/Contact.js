@@ -1,6 +1,4 @@
-import React from 'react';
 import { contact } from '../../portfolio';
-
 import './Contact.css';
 
 const Contact = () => {

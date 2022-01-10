@@ -1,8 +1,6 @@
-import React from 'react';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import { about } from '../../portfolio';
-
 import './About.css';
 
 const About = () => {
@@ -17,6 +15,7 @@ const About = () => {
       )}
 
       {role && <h2 className='about__role'>{role}</h2>}
+
       <p className='about__desc'>{description && description}</p>
 
       <div className='about__contact center'>
