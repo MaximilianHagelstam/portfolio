@@ -42,6 +42,13 @@ const projects = [
     stack: ['Raspberry PI', 'Arduino', 'Socket.io'],
     sourceCode: 'https://github.com/MaximilianHagelstam/aura',
   },
+  {
+    name: 'Larkanscran',
+    description: "Check out Lärkan Gymnasiet's lunch menu today",
+    stack: ['Node', 'React'],
+    sourceCode: 'https://github.com/MaximilianHagelstam/larkanscran',
+    livePreview: 'https://larkanscran.netlify.app',
+  },
 ];
 
 const skills = [
