@@ -24,6 +24,13 @@ const projects = [
     livePreview: 'https://cryptochimp.netlify.app',
   },
   {
+    name: 'Dohi',
+    description: 'Homework tracker. Keep track of assignments and projects',
+    stack: ['Node', 'React', 'PostgreSQL'],
+    sourceCode: 'https://github.com/MaximilianHagelstam/dohi',
+    livePreview: 'https://dohi.netlify.app',
+  },
+  {
     name: 'Dapple',
     description: 'Website that lets you search for rhymes',
     stack: ['Spring Boot', 'React', 'PostgreSQL'],
