@@ -11,6 +11,7 @@ const about = {
   social: {
     linkedin: 'https://www.linkedin.com/in/maximilian-hagelstam-704840186/',
     github: 'https://github.com/MaximilianHagelstam',
+    resume: 'https://www.dropbox.com/s/yhflvsgqjfx0o2t/Resume.pdf?dl=0',
   },
 };
 
@@ -64,7 +65,9 @@ const skills = [
   'PostgreSQL',
   'MongoDB',
   'Node.js',
-  'React.js',
+  'React',
+  'HTML',
+  'CSS',
   'Git',
   'Docker',
 ];
